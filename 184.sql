@@ -4,4 +4,4 @@ where
 (Employee.DepartmentID, Salary) in 
 (select departmentID, MAX(salary) 
 from Employee 
-Group by DepartmentId);
+Group by DepartmentId); 
