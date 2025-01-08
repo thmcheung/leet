@@ -10,4 +10,4 @@ total = int(input())
 for i in range(total):
     name = input()
     ans += dic[name]
-print(name)
+print(ans)
